@@ -14,7 +14,7 @@ use Faker\Generator as Faker;
 | model instances for testing / seeding your application's database.
 |
 */
-
+/* @var $factory \Illuminate\Database\Eloquent\Factory */
 $factory->define(User::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
